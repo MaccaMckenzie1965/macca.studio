@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Kinship</title>
+    <meta name="description" content="Privacy Policy for Kinship — local relationship records with optional AI features powered by user-supplied Google Gemini and Anthropic Claude API keys.">
+    <style>
+        body { background: #0f172a; color: #f8fafc; font-family: Inter, -apple-system, sans-serif; padding: 40px 20px; max-width: 820px; margin: auto; line-height: 1.75; }
+        h1, h2 { color: #38bdf8; }
+        a { color: #7dd3fc; }
+        .box { background: #1e293b; padding: 30px; border-radius: 15px; border: 1px solid #334155; }
+        .banner { background: #0369a1; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; font-weight: bold; }
+        .highlight { color: #7dd3fc; font-weight: 600; }
+        hr { border: 0; border-top: 1px solid #334155; margin: 25px 0; }
+        ul { padding-left: 1.25rem; }
+        li { margin-bottom: 0.5rem; }
+        code { background: rgba(0,0,0,0.25); padding: 0.15rem 0.4rem; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Kinship Privacy Policy</h1>
+    <div class="box">
+        <div class="banner">Local-first records · User-controlled AI · No Macca.Studio accounts</div>
+
+        <p><strong>Effective Date:</strong> August 17, 2026<br>
+        <strong>App:</strong> Kinship<br>
+        <strong>Package IDs:</strong> <code>com.maccastudio.kinship</code> (Android), <code>com.maccastudio.kinship.ios</code> (iOS)<br>
+        <strong>Developer:</strong> David &ldquo;Macca&rdquo; McKenzie / Macca.Studio</p>
+
+        <p>Kinship (&ldquo;the App&rdquo;) helps you organise relationship context and use optional AI coaching features. Your core relationship records are stored on your device. When you choose to use AI features, selected content is sent directly from your device to third-party AI providers using API credentials you supply.</p>
+
+        <hr>
+
+        <h2>1. Summary</h2>
+        <ul>
+            <li><strong>No Macca.Studio account:</strong> Kinship does not require sign-in to a developer-operated account service.</li>
+            <li><strong>No ads or developer analytics:</strong> We do not integrate advertising networks, Firebase, or Macca.Studio-operated analytics or crash-reporting backends in the current build.</li>
+            <li><strong>No in-app purchases in the current build:</strong> Subscriptions, trials, and usage top-ups described on our website are planned for future releases and are not active in the submitted app version.</li>
+            <li><strong>Optional AI is user-initiated:</strong> AI requests occur only when you trigger a feature and have configured a valid API key.</li>
+        </ul>
+
+        <hr>
+
+        <h2>2. Data Stored Locally on Your Device</h2>
+        <p>Kinship stores relationship data locally in a private database on your device, including:</p>
+        <ul>
+            <li>Friend/contact details (names, phone numbers, addresses, workplace, birthdays, gender, photos)</li>
+            <li>Messages, message notes, facts, events, memories, and in-person notes</li>
+            <li>Relationship context, metrics, psychological profiles, and generated reports</li>
+            <li>Embeddings and AI-related metadata derived from your content</li>
+            <li>Locally submitted feedback text (saved on-device, not sent to Macca.Studio servers)</li>
+            <li>Your Gemini and/or Claude API keys (Android: encrypted preferences; iOS: Keychain; desktop: local preferences)</li>
+        </ul>
+        <p>Macca.Studio does not operate a cloud sync service for Kinship in the current build.</p>
+
+        <hr>
+
+        <h2>3. AI Features &amp; Third-Party Processors</h2>
+        <p><span class="highlight">Important:</span> AI analysis, drafting, embeddings, OCR, and psychological profiling are <strong>not processed entirely on-device</strong>. When you use AI features, Kinship transmits selected content directly to:</p>
+        <ul>
+            <li><strong>Google Gemini</strong> — for embeddings, image/screenshot OCR, and some analysis/drafting requests</li>
+            <li><strong>Anthropic Claude</strong> — for analysis and drafting requests when selected as the provider</li>
+        </ul>
+        <p>Depending on the feature you use, transmitted content may include message text, friend identity/context, recent messages, facts, events, memories, notes, relationship metrics, psychological profile summaries, and image bytes you select or share for OCR.</p>
+        <p>You supply your own API credentials. Kinship sends requests from your device to the provider you configure. Macca.Studio does not receive or store the contents of those AI requests on its own servers.</p>
+        <p>Provider retention, training, and logging practices are governed by Google&rsquo;s and Anthropic&rsquo;s applicable terms and your account settings with those providers. Review their privacy policies before enabling AI features.</p>
+
+        <hr>
+
+        <h2>4. Permissions</h2>
+        <p>Kinship may request device permissions to support specific features:</p>
+        <ul>
+            <li><strong>Contacts (Android &amp; iOS):</strong> to import names and phone numbers when you choose to add friends from your address book.</li>
+            <li><strong>Photos / media (Android &amp; iOS):</strong> to import profile photos and images you choose for OCR or message import workflows.</li>
+            <li><strong>Notifications (Android):</strong> to alert you when a new screenshot may contain importable message content, if you enable screenshot monitoring.</li>
+            <li><strong>Internet:</strong> required for AI provider requests initiated by you.</li>
+        </ul>
+        <p>On Android, screenshot-related permissions may be requested at startup when screenshot monitoring is enabled.</p>
+
+        <hr>
+
+        <h2>5. Backups &amp; Exports</h2>
+        <ul>
+            <li><strong>User-initiated JSON backup/restore:</strong> You can export a backup file containing relationship records and, optionally, API keys. You choose where that file is saved or shared through your device&rsquo;s share sheet.</li>
+            <li><strong>Android automatic backup:</strong> disabled for Kinship in the current build.</li>
+            <li><strong>iOS backups:</strong> app data and profile photos stored in the app container may be included in device or iCloud backups according to your Apple settings.</li>
+        </ul>
+        <p>Once you export or share a backup to another app or cloud provider, that destination&rsquo;s privacy practices apply.</p>
+
+        <hr>
+
+        <h2>6. Retention &amp; Deletion</h2>
+        <p>Local data remains until you delete it or remove the App. You can delete individual messages, facts, memories, notes, events, profile photos, and friend profiles within the App.</p>
+        <p>Deleting a friend from some screens removes related database records; depending on the deletion path, associated photo files may require separate cleanup. Restoring a backup replaces existing database contents on the device.</p>
+        <p>You can clear AI API keys by saving empty key fields in Settings. To remove all local Kinship data, delete the App or clear its storage through your device settings.</p>
+        <p>Because Kinship does not create Macca.Studio accounts, there is no separate online account-deletion URL. Data sent to Google or Anthropic is subject to those providers&rsquo; policies and your account controls.</p>
+
+        <hr>
+
+        <h2>7. Children&rsquo;s Privacy</h2>
+        <p>Kinship is not directed at children under 13 and is not designed for developer-operated collection of children&rsquo;s personal information through Macca.Studio servers.</p>
+
+        <hr>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>We will update this policy when Kinship&rsquo;s data practices change (for example, if subscriptions, cloud sync, or additional processors are added). The effective date above will be revised accordingly.</p>
+
+        <hr>
+
+        <h2>Contact</h2>
+        <p>Privacy or support questions:</p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:admin@macca.studio">admin@macca.studio</a><br>
+            <strong>Support:</strong> <a href="support.html">macca.studio/kinship/support.html</a><br>
+            <strong>Website:</strong> <a href="https://macca.studio/kinship.html">https://macca.studio/kinship.html</a>
+        </p>
+    </div>
+</body>
+</html>
