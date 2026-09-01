@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kjxbyprg/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp 404.html $DEPLOYPATH
+    - /bin/cp kinship.html $DEPLOYPATH
+    - /bin/cp watermarked_img_14872018698589464465.jpg $DEPLOYPATH
+    - /bin/cp -R kinship $DEPLOYPATH
+    - /bin/cp -R pocket-rosary $DEPLOYPATH
+    - /bin/cp -R driverprophet $DEPLOYPATH
