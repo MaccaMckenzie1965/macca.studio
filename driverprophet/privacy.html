@@ -1,73 +1,107 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | Driver Prophet</title>
+    <meta name="description" content="Privacy Policy for Driver Prophet — trip-cost tracking with on-device storage, no accounts, no ads, and no tracking.">
     <style>
-        body { background: #0f172a; color: #f8fafc; font-family: sans-serif; padding: 40px 20px; max-width: 800px; margin: auto; line-height: 1.7; }
+        body { background: #0f172a; color: #f8fafc; font-family: Inter, -apple-system, sans-serif; padding: 40px 20px; max-width: 800px; margin: auto; line-height: 1.7; }
         h1, h2 { color: #38bdf8; }
+        a { color: #7dd3fc; }
         .box { background: #1e293b; padding: 30px; border-radius: 15px; border: 1px solid #334155; }
         .highlight { color: #7dd3fc; font-weight: bold; }
         hr { border: 0; border-top: 1px solid #334155; margin: 25px 0; }
-        .no-data-banner { background: #0369a1; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; font-weight: bold; }
+        .no-data-banner { background: #1d4ed8; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; font-weight: bold; }
+        ul { padding-left: 1.25rem; }
+        li { margin-bottom: 0.5rem; }
+        code { background: rgba(0,0,0,0.25); padding: 0.15rem 0.4rem; border-radius: 4px; }
     </style>
 </head>
-<body dir="ltr" spellcheck="false" style="direction: ltr; min-height: 901px;">
+<body>
     <h1>Driver Prophet Privacy Policy</h1>
     <div class="box">
-        <div class="no-data-banner">Local-First &amp; On-Device Architecture</div>
-        
-        <p><strong>Effective Date:</strong> July 9, 2026<br>
+        <div class="no-data-banner">Local-first · On-device · No accounts · No ads · No tracking</div>
+
+        <p><strong>Last updated:</strong> 1 September 2026<br>
         <strong>App:</strong> Driver Prophet (<code>com.macca.driverprofit</code>)<br>
-        <strong>Version:</strong> 2.3.0</p>
-        
-        <p>Driver Prophet ("the App") is a trip-cost and profit-tracking tool built with a <span class="highlight">"Local-First" architecture</span>. We believe your vehicle, shift, trip, and financial data should remain private and under your absolute control on your device.</p>
+        <strong>Version:</strong> 2.0.0<br>
+        <strong>Developer:</strong> David &ldquo;Macca&rdquo; McKenzie / Macca.Studio</p>
+
+        <p>Driver Prophet (&ldquo;the App&rdquo;) is a trip-cost and profit-tracking tool. We believe your vehicle, trip, and financial data should remain private and under your control on your device.</p>
 
         <hr>
 
-        <h2>1. Summary &amp; No Central Server Data</h2>
-        <p>Driver Prophet <span class="highlight">does not collect, store, or transmit</span> your personal income, vehicle information, or trip records to our own servers or advertising third parties. 
-        </p><ul>
-            <li><strong>No Account Required:</strong> You do not need to sign up or log in with an email address to use the App.</li>
-            <li><strong>No Trackers or Ads:</strong> We do not use third-party analytics, crash-reporting SDKs, or advertising networks.</li>
-            
-        </ul><p><br></p>
-
-        <h2>2. Local Storage &amp; Device Data</h2>
-        <p>All core data you enter—including vehicle profiles, odometer readings, earnings, costs, shifts, and daily notes—is stored <span class="highlight">exclusively on your physical device</span> in a private database. 
-        </p><ul>
-            <li>We do not operate servers that collect or back up your trip records.</li>
-            <li>If you clear app data or uninstall the App, your local data is permanently removed unless you have exported a JSON backup yourself or enabled Android automatic device backup.</li>
-        </ul><p><br></p>
-
-        <h2>3. Internet Connections &amp; Third-Party Services</h2>
-        <p>The App connects to external internet services strictly to support the following specific features:</p>
+        <h2>1. Summary</h2>
+        <p>Driver Prophet <span class="highlight">does not collect, store, or transmit</span> your personal income, vehicle information, or trip records to Macca.Studio servers or to advertising third parties.</p>
         <ul>
-            <li><strong>Weather (Open-Meteo):</strong> When viewing weather details, your approximate latitude and longitude are sent to Open-Meteo to retrieve a local forecast.</li>
-            <li><strong>Subscriptions (Google Play Billing):</strong> Purchases and subscription statuses are processed entirely by Google Play. We do not receive or store your payment card details.</li>
+            <li><strong>No account required:</strong> You do not need to sign up or log in.</li>
+            <li><strong>No ads or trackers:</strong> The App does not include third-party analytics, crash-reporting SDKs, or advertising networks.</li>
+            <li><strong>No background location tracking:</strong> The App does not request location permission and does not record GPS trails.</li>
         </ul>
-
-        <h2>4. Location Permissions &amp; GPS Usage</h2>
-        <p>Location permissions are requested strictly for local functionality:</p>
-        <ul>
-            <li><strong>GPS Trip &amp; Shift Tracking:</strong> Active only while tracking is enabled. Location updates are processed locally on your phone to calculate total distance. Raw GPS coordinate trails are <strong>not saved long-term</strong>—only the final accumulated distance is kept with your trip.</li>
-            <li><strong>Weather:</strong> A one-time location check is used to retrieve local weather conditions.</li>
-        </ul>
-
-        <h2>5. Data Export &amp; Backups</h2>
-        <p>You can export JSON backups or share business PDF/CSV reports through Android's standard share mechanisms. You control where these files are sent. If Android's system-level device backup is enabled, your app settings and local data may be backed up to your encrypted Google Account storage in accordance with Google's policies.</p>
-
-        <h2>6. Children’s Privacy</h2>
-        <p>Because we do not operate account servers or harvest personal information, Driver Prophet is not designed to collect personal data from children under the age of 13.</p>
 
         <hr>
 
-        <h2>Contact &amp; Support</h2>
-        <p>If you have any questions about this Privacy Policy or managing your local data, please contact us:</p>
+        <h2>2. Data stored on your device</h2>
+        <p>The App may store the following <span class="highlight">on your device only</span>:</p>
+        <ul>
+            <li>Vehicle details (make, model, fuel or energy use, running costs, optional purchase information)</li>
+            <li>Trip records (distance, earnings, expenses, duration, dates, descriptions)</li>
+            <li>Rideshare shift sessions (start and end times used to calculate hours worked)</li>
+            <li>Bookings you save for later</li>
+            <li>App preferences (theme, GST rate, annual kilometres, daily and weekly goals, display options)</li>
+            <li>Backup files you export manually (JSON)</li>
+        </ul>
+        <p>If you clear app data or uninstall the App, this local data is permanently removed unless you exported a JSON backup yourself or restored from an operating-system device backup.</p>
+
+        <hr>
+
+        <h2>3. Internet &amp; third-party services</h2>
+        <p>Core quoting, logging, trends, and backup features work without sending your trip data to Macca.Studio.</p>
+        <ul>
+            <li><strong>Privacy Policy and Support links:</strong> Opening these in Settings loads pages on macca.studio in your device browser. That is a normal HTTPS page load, not collection of your trip records.</li>
+            <li><strong>Send feedback:</strong> If you choose to email us, that uses your mail app. You control what you send.</li>
+            <li><strong>Android subscriptions (optional):</strong> The Android version may offer Google Play Pro subscriptions. Purchases and subscription status are processed by Google Play. We do not receive or store your payment card details.</li>
+            <li><strong>iOS:</strong> Version 2.0.0 does not include in-app purchases or subscriptions. All features described on the product page are included at no charge.</li>
+        </ul>
+        <p>The App does not include weather APIs, cloud sync, or developer-operated backup servers.</p>
+
+        <hr>
+
+        <h2>4. Data export &amp; backups</h2>
+        <p>You can export a JSON backup from Settings and import it on another device. You can also share business PDF or CSV reports through the operating system&rsquo;s share sheet. Those files are under your control. The App does not upload backups automatically.</p>
+        <p>If Android automatic device backup or iCloud/device backup is enabled, the operating system may include locally stored app data in encrypted backups according to Google or Apple policies — not according to a Macca.Studio cloud service.</p>
+
+        <hr>
+
+        <h2>5. How to delete your data</h2>
+        <p>Because Driver Prophet does not create online accounts, you control deletion on your device:</p>
+        <ul>
+            <li>Delete individual trips, bookings, vehicles, or shift records in the App.</li>
+            <li>Uninstall the App or clear app storage to remove remaining local data.</li>
+            <li>To remove data from OS backups, manage or delete device backups in your Google or Apple account settings separately.</li>
+        </ul>
+        <p>There is no separate account-deletion URL because no Macca.Studio account is created when you use Driver Prophet.</p>
+
+        <hr>
+
+        <h2>6. Children&rsquo;s privacy</h2>
+        <p>The App is not directed at children under 13. We do not knowingly collect personal information from children through developer-operated servers.</p>
+
+        <hr>
+
+        <h2>7. Changes</h2>
+        <p>We may update this policy when the App changes. The &ldquo;Last updated&rdquo; date at the top will change when we do. The current policy is published at this URL.</p>
+
+        <hr>
+
+        <h2>Contact</h2>
+        <p>Questions about privacy or your local data:</p>
         <p>
-            <strong>Developer:</strong> David "Macca" McKenzie<br>
-            <strong>Email:</strong> <a href="mailto:report@macca.studio" style="color: #38bdf8;">report@macca.studio</a>
-            <strong>Website:</strong> <a href="https://macca.studio" style="color: #38bdf8;" target="_blank">https://macca.studio</a>
+            <strong>Email:</strong> <a href="mailto:report@macca.studio">report@macca.studio</a><br>
+            <strong>Support:</strong> <a href="support.html">macca.studio/driverprophet/support.html</a><br>
+            <strong>Website:</strong> <a href="https://macca.studio">https://macca.studio</a>
         </p>
     </div>
-
-</body></html>
+</body>
+</html>
