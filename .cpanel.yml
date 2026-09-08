@@ -10,3 +10,4 @@ deployment:
     - /bin/cp -R kinship $DEPLOYPATH
     - /bin/cp -R pocket-rosary $DEPLOYPATH
     - /bin/cp -R driverprophet $DEPLOYPATH
+    - /bin/cp -R rhythm $DEPLOYPATH
