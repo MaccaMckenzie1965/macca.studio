@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhythm | Match the day you are having</title>
+  <meta name="description" content="Rhythm is a local helper with three Capacity Modes, a searchable ritual catalog, and calm checklists. No account. Base stays free.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .rhythm-accent { --accent: #5c7a5e; --highlight: #3d4a3e; }
+    .app-icon { width: 88px; height: 88px; border-radius: 20px; box-shadow: 0 12px 32px rgba(92, 122, 94, 0.28); }
+    .hero-copy .app-icon { margin-bottom: 1rem; }
+    .coming-soon {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      color: rgba(15, 23, 42, 0.72);
+      font-weight: 700;
+      font-size: 0.95rem;
+      border-radius: 14px;
+      border: 1px dashed var(--border);
+      background: rgba(255,255,255,0.70);
+    }
+  </style>
+</head>
+<body class="rhythm-accent">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">MACCA<span>.STUDIO</span></a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#contact" class="nav-cta">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <img src="app-icon.png" alt="Rhythm app icon" class="app-icon" width="88" height="88">
+          <p class="eyebrow">Rhythm</p>
+          <h1>Match the day you are <span class="highlight">actually having</span>.</h1>
+          <p class="lede">Three Capacity Modes, a searchable ritual catalog, and capture that turns one thing into steps. Tasks stay on this device. Base stays free.</p>
+          <div class="actions">
+            <span class="coming-soon">Coming to the App Store and Google Play</span>
+          </div>
+          <div class="trust">
+            <div class="trust-item"><span class="trust-kicker">On device</span><span class="trust-text">No account. Catalog search is local</span></div>
+            <div class="trust-item"><span class="trust-kicker">Calm</span><span class="trust-text">No streaks, scores, or guilt copy</span></div>
+            <div class="trust-item"><span class="trust-kicker">Optional Plus</span><span class="trust-text">Nothing here is required to keep going</span></div>
+          </div>
+        </div>
+        <div class="hero-panel" aria-hidden="true">
+          <div class="panel-card">
+            <div class="panel-title">How it works</div>
+            <div class="panel-list">
+              <div class="panel-row"><span>Pulse</span><span class="muted">check-in</span></div>
+              <div class="panel-row"><span>Today</span><span class="muted">what you asked for</span></div>
+              <div class="panel-row"><span>Library</span><span class="muted">searchable rituals</span></div>
+              <div class="panel-row"><span>Survival</span><span class="muted">quiet minimum</span></div>
+              <div class="panel-row"><span>Steady / Wave Rider</span><span class="muted">when you have more room</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>Built for the day you are actually having</h2>
+          <p>Rhythm is a local helper, not medical care. Add a title, tick a checklist, or keep a repeating task. Completing a step is quiet.</p>
+        </div>
+        <div class="capabilities">
+          <div class="capability">
+            <h3>Pulse, then Today</h3>
+            <p>Pick Survival, Steady, or Wave Rider, then start. Today holds what you asked for, when you asked — including Daily and Weekly keeps.</p>
+          </div>
+          <div class="capability">
+            <h3>A searchable catalog</h3>
+            <p>Everyday rituals you can add, edit, or pin. If Rhythm has no match, a hosted helper can suggest steps. No API key to paste.</p>
+          </div>
+          <div class="capability">
+            <h3>Optional weather</h3>
+            <p>Today can show a coarse place and condition. Turn it off in Settings. Rhythm has no weather server of its own.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="privacy">
+      <div class="container">
+        <div class="section-head">
+          <h2>Privacy-first by design</h2>
+          <p>Tasks, pins, and catalog search stay on your device. We do not include analytics or advertising SDKs.</p>
+        </div>
+        <div class="contact" style="align-items: center;">
+          <div>
+            <h2 style="margin-bottom: 0.5rem;">No account. No ads. No tracking.</h2>
+            <p>Base includes the three modes, the catalog, editing, capture, and repeating tasks. Plus is optional.</p>
+            <div class="actions">
+              <a class="btn-secondary" href="privacy.html">Read the Privacy Policy</a>
+              <a class="btn-secondary" href="support.html">App Support</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-row"><span class="muted">Accounts</span><span>None required</span></div>
+            <div class="contact-row"><span class="muted">Analytics</span><span>None</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div>
+            <h2>Questions or feedback?</h2>
+            <p>We welcome support requests, bug reports, and suggestions for Rhythm.</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-row"><span class="muted">Email</span><a href="mailto:report@macca.studio">report@macca.studio</a></div>
+            <div class="contact-row"><span class="muted">Support page</span><a href="support.html">rhythm/support.html</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; 2026 Macca.Studio. Designed for impact.</p>
+      <p class="footer-links">
+        <a href="../index.html">Home</a><span class="sep">&middot;</span>
+        <a href="#features">Features</a><span class="sep">&middot;</span>
+        <a href="privacy.html">Privacy</a><span class="sep">&middot;</span>
+        <a href="support.html">Support</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
